@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Registration Form</title>
+</head>
+<body style="background-color:#33F0FF;">
+<div class="container">
+<iframe width="853" height="480" src="https://www.youtube.com/embed/n-aA4mnYf8Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <form action="action_page.php">
+<fieldset>
+<legend>Registeration Form:</legend>
+
+
+       <label for="fname"><b>First Name		:</b></label>
+      <input type="text" id="fname" name="firstname"  onblur="myFunction()" placeholder="Your name.." required><br><br>
+  
+   
+
+    <label for="lname"><b>Last Name		:</b></label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name.." required><br><br>
+
+<tr>
+<td><b>ADDRESS</b> <br /><br /></td>
+<td><textarea name="Address" rows="4" cols="30"></textarea></td>
+</tr>
+<br>
+<br>
+
+
+
+<tr>
+<td><b>GENDER</b></td>
+<td><br>
+<input type="radio" name="gender" value="male"> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+</td>
+</tr>
+
+<br>
+</br>
+
+
+
+   <label for="city"><b>City		:</b></label>
+   <select id="city" name="city"required>
+<option value ="ahmedabad">Ahmedabad</option>
+<option value ="anand">Anand</option>
+<option value ="vadodra">Vadodra</option>
+<option value ="surat">Surat</option>
+<option value ="bharuch">Bharuch</option>
+<option value ="gandhinagar">Gandhinagar</option>
+<option value ="rajkot">Rajkot</option>
+</select><br><br>
+
+
+<label for="state"><b>State		:</b></label>
+                <input type="text" id="state" name="state" placeholder="GJ">
+
+<br><br >
+<label for="zip"><b>Zip		:</b></label>
+                <input type="number" id="zip" name="zip" placeholder="380001">
+<br><br>
+
+
+<label for="age"><b>Age		:</b></label>
+                <input type="number" id="age" name="age" placeholder="18">
+
+<br><br>
+<label for="email"><b>Email		:</b></label>
+<input type="text" placeholder="Enter Email"  name="email" required>
+
+<br>
+<br>
+<tr>
+<td><b>MOBILE NUMBER</b></td>
+<td>
+<input type="text" name="Mobile_Number" maxlength="10" />
+(10 digit number)
+</td>
+</tr>
+
+<br><br>
+<label for="date"><b>Birth Date		:</b></label>
+<input type="date" placeholder="Enter your birth date"  name="date" required>
+
+
+<hr>
+
+
+<div align="center">
+<input type="submit" value="Submit" style="background-color:orange">
+<input type="reset" value="Reset" style="background-color:#FFCE33">
+</div>
+																			
+
+
+
+</fieldset>
+</form>
+</div>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("fname");
+  x.value = x.value.toUpperCase();
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+.text{
+font-size: 20px;
+color:grey;
+}
+
+.image{
+font-size: 22px;
+color:blue;
+}
+
+.table{
+font-size: 21px;
+color: red;
+}
+
+p{
+font-size: 15px;
+font-family: sans-serif;
+}
+
+.tabl{
+background-color: red;
+color: darkblue;
+}
+body{
+background-color: cyan;
+}

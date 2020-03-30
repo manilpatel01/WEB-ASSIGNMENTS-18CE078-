@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Practical-1</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script>
+		function showAlert() {
+			alert("Welcome to My Page!");
+		}
+		function onImg() {
+			this.setAttribute("src", "2ndimg.png");
+		}
+		function outImg() {
+			this.setAttribute("src", "ML.jpeg");
+		}
+	</script>
+</head>
+
+<body bgcolor=#ccccff>
+	<CENTER>
+		<h1><b>
+				<font size="12">Machine Learning</font>
+			</b></h1>
+	</CENTER>
+
+	<center>
+		<img src="ML.jpeg" height="500px" width="500px" align="center" onmouseover="onImg.call(this)"
+			onmouseout="outImg.call(this)" />
+	</center>
+
+	<h2>What is Machine Learning?</h2>
+
+	<p>
+		<font size="4">Machine learning (ML) is the scientific study of algorithms and statistical models that computer
+			systems use to perform
+			a specific task without using explicit instructions, relying on patterns and inference instead. It is seen
+			as a subset
+			of artificial intelligence.</font>
+	</p>
+
+	<p><b>There are two types of Machine Learning
+			<ol>
+				<li>Supervised Learning</li>
+				<li>Unsupervised Learning</li>
+			</ol></b>
+	</p>
+
+	<p><b>What is Supervised Machine Learning?</b></p>
+	<p>Supervised Learning is the one, where you can consider the learning is guided by a teacher. We have a dataset
+		which acts as a teacher and its role is to train the model or the machine. Once the model gets trained it can
+		start making
+		a
+		prediction or decision when new data is given to it.</p>
+	<p><b>What is Unsupervised Machine Learning?</b></p>
+	<p>The model learns through observation and finds structures in the data. Once the model is given a dataset, it
+		automatically finds patterns and relationships in the dataset by creating clusters in it. What it cannot do is
+		add
+		labels to the cluster, like it cannot say this a group of apples or mangoes, but it will separate all the apples
+		from
+		mangoes.
+
+		Suppose we presented images of apples, bananas and mangoes to the model, so what it does, based on some patterns
+		and
+		relationships it creates clusters and divides the dataset into those clusters. Now if a new data is fed to the
+		model, it
+		adds it to one of the created clusters.</p>
+
+	<p><b>How Does Machine Learning Works?</b></p>
+	<center><img src="How-Machine-Learning-Works-What-is-Machine-Learning-Edureka-1.gif"></center>
+
+	<h1><b>
+			<marquee>Thank You for Visiting this website</marquee>
+		</b></h1>
+
+	<center>
+		<footer>&copy; Copyright 2020 HTML
+	</center>
+	</footer>
+
+
+</body>
